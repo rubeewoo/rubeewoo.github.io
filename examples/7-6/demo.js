@@ -20,8 +20,10 @@ function alwaysDoFirst() {
 	console.log('You can call this function anywhere in the script!');
 }
 
-callThisLater();
+//callThisLater(); // This line causes error.
 
 var callThisLater = function() {
 	console.log('You can only call this function after it is built.');
 };
+
+callThisLater();
