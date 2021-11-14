@@ -15,7 +15,7 @@ window.onload = function() {
 	//alert('Website is ready!');
 	//window.document: The entire HTML document
 	let siteTitle = document.title;
-	console.log(siteTitle);
+	//console.log(siteTitle);
 
 
 	let allDivs = document.getElementsByTagName('div');
