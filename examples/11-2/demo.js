@@ -8,4 +8,6 @@ window.onload = function() {
 
 	let firstP = $('body > p#first');
 	console.log(firstP);
+
+	let specialPs = jQuery('body > p.special');
 };
