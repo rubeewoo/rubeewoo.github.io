@@ -10,4 +10,5 @@ window.onload = function() {
 	console.log(firstP);
 
 	let specialPs = jQuery('body > p.special');
+	console.log(specialPs);
 };
