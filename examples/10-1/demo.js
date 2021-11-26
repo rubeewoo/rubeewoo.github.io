@@ -14,10 +14,10 @@ function changeDivCSS() {
 
 window.onload = function () {
 	if(false) {
-		alert('true!');
+		//alert('true!');
 	}
 	else {
-		alert('false!');
+		//alert('false!');
 	}
 
 	// Real conditions
