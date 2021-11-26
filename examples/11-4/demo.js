@@ -9,7 +9,7 @@ window.onload = function() {
 		alert('Button clicked!');
 	});
 
-	$('body > input').eq(0).on('keypress', function() {
+	$('body > input').eq(0).on('keyup', function() {
 		let inputVal = $(this).val(); // val()= value
 		let textarea = $('body > textarea').eq(0);
 		textarea.html(inputVal);
