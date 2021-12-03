@@ -43,13 +43,23 @@
 
  			/* Add the class "lightUp" to each <span> when the button is clicked and get the animinate to work. */
 			span.lightUp {
+				display: inline-block; /* set <span> to inline-block in order to set width and height */
+				width: 60px;
+				height: 60px;
+				margin: 10px;
+				background-color: red;
+				color: white;
+				font-family: sans-serif;
+				font-size: 50px;
+				line-height: 60px;
+				opacity: 1;
 
 			}
 
  			/* Set changes at 0%, 50%, and 100% for the background color */
 			@keyframes transColor {
 				f0% { /*equivalent to "from"*/
-					background-color: green;
+					background-color: red;
 				}
 
 				50% {
@@ -57,7 +67,7 @@
 				}
 
 				100% { /* equivalent to "to"*/
-					background-color: brown;
+					background-color: green;
 				}
 			}
 
