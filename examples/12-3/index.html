@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<html lang="en-us">
+	<head>
+	<title> PExample 12-3:Shrink and Expand with Transition </title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+		<style>
+			div > p {
+				width: 0;
+				opacity: 0;
+			}
+
+			div:hover > p {
+				width: 100%;
+				opacity: 1;
+				transition: all 1s linear;
+			}
+
+		</style>
+	</head>
+	<body>
+		<div>
+			This is a div.
+			<p>Catch me if you can.</p>
+		</div>
+	</body>
+</html>
