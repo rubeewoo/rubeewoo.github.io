@@ -11,7 +11,7 @@
 			window.onload = function() {
  				// Edit the jQuery event listener for the "Light up!" button here.
  				$('button').on('click', function() {
-
+ 					$('div').('lightup');
  				});
 			};
 		</script>
@@ -39,9 +39,17 @@
 				transition: all 1s linear;
 			}
 
+			span {
+				animation: bgChange 2s linear infinite alternate;
+			}
+
 			/* Edit the styles below this line, and  do not change anything above. */
 
  			/* Add the class "lightUp" to each <span> when the button is clicked and get the animinate to work. */
+ 			body {
+ 				text-align: center;
+ 			}
+
 			span.lightUp {
 				display: inline-block; /* set <span> to inline-block in order to set width and height */
 				width: 60px;
