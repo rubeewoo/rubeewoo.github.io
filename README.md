@@ -1,1 +1,42 @@
-# rubeewoo.github.io
+<!DOCTYPE HTML>
+<html lang="en-us">
+	<head>
+		<title>Quiz 6</title>
+		<!-- Make sure that you have a copy of jQuery in this Quiz 6 folder -->
+		<script src="./jquery-3.6.0.min.js"></script>
+		<style>
+			/* Do NOT change anything in <style> */
+			div {
+				display: inline-block;
+				margin: 10px;
+				height: 50px;
+				width: 50px;
+				background-color: green;
+			}
+		</style>
+		<script>
+			window.onload = function() {
+ 				/* Edit your script here to complete the quiz */
+ 				document.querySelector('changeDiv1').addEventListener('click', function() {
+ 					document.getElementById('realDiv1').style.cssText = 'background-color: red; width: 100px; height: 40px;';
+ 				});
+ 				document.querySelector('changeDiv2').addEventListener('click', function() {
+ 					document.getElementById('realDiv2').style.cssText = 'background-color: black; width: 60px; height: 150px;';
+ 				});
+ 				document.querySelector('changeDiv3').addEventListener('click', function() {
+ 					document.getElementById('realDiv3').style.cssText = 'background-color: gold; width: 200px; height: 200px;';
+ 				});
+			};
+		</script>
+	</head>
+	<body>
+		<!-- You can add attributes to any HTML element, but you cannot change/add/remove any HTML element -->
+		<div id="realDiv1">1</div> <!-- The first <div> needs to have a red background color and a size of 100 x 40 px -->
+		<div id="realDiv2">2</div> <!-- The second <div> needs to have a black background color and a size of 60 x 150 px -->
+		<div id="realDiv3">3</div> <!-- The third <div> needs to have a gold background color and a size of 200 x 200 px -->
+		<!-- Each of the <button> below must change one <div> by clicking based on the text description -->
+		<button id="changeDiv1">Change Div 1</button>
+		<button id="changeDiv2">Change Div 2</button>
+		<button id="changeDiv3">Change Div 3</button>
+	</body>
+</html># rubeewoo.github.io
