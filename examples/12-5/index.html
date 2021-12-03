@@ -4,6 +4,13 @@
 	<title> Example 12-5: Interactive Animation with jQuery</title>
 	<meta charset="utf-8">
 	<script type="text/javascript" src="../js/jquery-3.6.0.min.js"></script>
+	<script>
+		window.onload = function() {
+			$('button').on('click', function() {
+				$('div').addClass('animated');
+			});
+		};
+	</script>
 		<style>
 			div {
 				width: 100px;
