@@ -33,6 +33,12 @@
 				opacity: 0; /* All <span>s are hidden by setting their opacity to zero */
 			}
 
+			span:hover > p {
+				width: 100%;
+				opacity: 1;
+				transition: all 1s linear;
+			}
+
 			/* Edit the styles below this line, and  do not change anything above. */
 
  			/* Add the class "lightUp" to each <span> when the button is clicked and get the animinate to work. */
@@ -42,7 +48,17 @@
 
  			/* Set changes at 0%, 50%, and 100% for the background color */
 			@keyframes transColor {
+				f0% { /*equivalent to "from"*/
+					background-color: green;
+				}
 
+				50% {
+					background-color: crimson;
+				}
+
+				100% { /* equivalent to "to"*/
+					background-color: brown;
+				}
 			}
 
 		</style>
