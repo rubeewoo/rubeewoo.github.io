@@ -9,19 +9,21 @@
 			padding: 10px; /*the distance box*/
 			background-color: red;
 			color: white;
-			font-size: 50px;	
+			font-size: 50px;
+			transition: all 1s linear;	
 		}
 
 		div:first-of-type:hover {
 			background-color: orange;
 			font-size: 70px;
+			transition: all 3s ease-out;
 		}
 
 		div:last-of-type:hover {
 			background-color: green;
 			font-size: 70px;
 			/*transition: all 1s linear;*/
-			transition: all 3s ease-in;
+			transition: font-size 1s ease-in, background-color 5s ease-out; /* linear in, out, in-out*/
 		}
 		</style>
 	</head>
