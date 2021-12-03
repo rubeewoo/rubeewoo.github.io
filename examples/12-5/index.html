@@ -1,0 +1,37 @@
+<!DOCTYPE HTML>
+<html lang="en-us">
+	<head>
+	<title> Example 12-5: Interactive Animation with jQuery</title>
+	<meta charset="utf-8">
+	<script type="text/javascript" src="../js/jquery-3.6.0.min.js"></script>
+		<style>
+			div {
+				width: 100px;
+				height: 100px;
+			}
+
+			div.animated {
+				animation: bgChange 1s linear infinite alternate;
+			}
+
+			@keyframes bgChange {
+				0% { /*equivalent to "from"*/
+					background-color: pink;
+				}
+
+				50% {
+					background-color: crimson;
+				}
+
+				100% { /* equivalent to "to"*/
+					background-color: azure;
+				}
+			}
+
+		</style>
+	</head>
+	<body>
+		<div></div>
+		<button>Animate!</button>
+	</body>
+</html>
