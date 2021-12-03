@@ -11,7 +11,7 @@
 			window.onload = function() {
  				// Edit the jQuery event listener for the "Light up!" button here.
  				$('button').on('click', function() {
- 					$('div').('lightup');
+ 					$('div').addClass('lightup');
  				});
 			};
 		</script>
@@ -33,16 +33,7 @@
 				opacity: 0; /* All <span>s are hidden by setting their opacity to zero */
 			}
 
-			p:hover > span {
-				width: 60px;
-				opacity: 1;
-				transition: all 1s linear;
-			}
-
-			span {
-				animation: bgChange 1s linear infinite alternate;
-			}
-
+			
 			/* Edit the styles below this line, and  do not change anything above. */
 
  			/* Add the class "lightUp" to each <span> when the button is clicked and get the animinate to work. */
