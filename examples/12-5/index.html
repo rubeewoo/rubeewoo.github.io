@@ -6,8 +6,12 @@
 	<script type="text/javascript" src="../js/jquery-3.6.0.min.js"></script>
 	<script>
 		window.onload = function() {
-			$('button').on('click', function() {
+			$('button')eq(0).on('click', function() {
 				$('div').addClass('animated');
+			});
+
+			$('button').eq(1).on('click', function() {
+				$('div').removeClass('animated');
 			});
 		};
 	</script>
