@@ -4,6 +4,19 @@
 		<title> Example 13-1: jQuery Animation</title>
 		<meta charset="utf-8">
 		<script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+		<script>
+			window.onload = function() {
+				$('button#fadeOut').on('click', function() {
+					$('div#fading').fadeOut();
+				});
+				$('button#fadeIn').on('click', function() {
+					$('div#fading').fadeIn();
+				});
+				$('button#fadeTo').on('click',function() {
+					$('di#fading').fadeTo(500, 0.5); //length in 
+				})
+			}
+		</script>
 		<style>
 			div {
 				padding: 5px;
