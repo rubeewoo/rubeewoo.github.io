@@ -45,9 +45,12 @@
 				$('button#slideUpShow').on('click', function() {
 					//Run a callback function when slideUp() is done,
 					//then run the show() function.
-					$('div#comeAndGo').slideUp(1000, function() {
-						$('div#comeAndGo').show(500);
-					});
+					//$('div#comeAndGo').slideUp(1000, function() {
+						//$('div#comeAndGo').show(500);
+					//});
+
+					//The above animations in one line.
+					$('div#comeAndGo').slideUp(1000).show(500);
 				});
 
 			};
