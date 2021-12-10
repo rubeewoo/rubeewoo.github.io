@@ -42,7 +42,15 @@
 					$('div#sliding').slideToggle('slow');
 				});
 
-			}
+				$('button#slideUpShow').on('click', function() {
+					//Run a callback function when slideUp() is done,
+					//then run the show() function.
+					$('div#comeAndGo').slideUp(1000, function() {
+						$('div#comeAndGo').show(500);
+					});
+				});
+
+			};
 		</script>
 		<style>
 			div {
@@ -68,6 +76,9 @@
 		<button id="slideUp">Slide Up</button>
 		<button id="slideDown">Slide Down</button>
 		<button id="slideToggle">Slide Toggle</button>
+
+		<div id="comeAndGo">Slide up and show</div>
+		<button id="slideUpShow">Slide up and show</button>
 	</body>
 </html>
 
