@@ -26,9 +26,22 @@
 					$('div#hiding').show('fast'); //200ms
 				});
 
-				$('buttoon#toggle').on('click', function() {
+				$('button#toggle').on('click', function() {
 					$('div#hiding').toggle(2000); //2000ms
 				});
+
+				$('button#slideUp').on('click', function() {
+					$('div#sliding').slideUp(2000);
+				});
+
+				$('button#slideDown').on('click', function() {
+					$('div#sliding').slideDown() 
+				});
+
+				$('button#slideToggle').on('click', function() {
+					$('div#sliding').slideToggle('slow');
+				});
+
 			}
 		</script>
 		<style>
@@ -50,5 +63,19 @@
 		<button id="hide">Hide</button>
 		<button id="show">Show</button>
 		<button id="toggle">Toggle</button>
+
+		<div id="sliding">Sliding</div>
+		<button id="slideUp">Slide Up</button>
+		<button id="slideDown">Slide Down</button>
+		<button id="slideToggle">Slide Toggle</button>
 	</body>
 </html>
+
+
+
+
+
+
+
+
+
