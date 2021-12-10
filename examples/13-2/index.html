@@ -22,7 +22,12 @@
 
 				$('button#changeSizePos').on('click', function() {
 					//Chain effects
-					$('div#biggerToTheRight').animate({}, 500).animate({}, 1000);
+					$('div#biggerToTheRight').animate({
+						width: '100px',
+						height: '100px'
+					}, 500).animate({
+						left: '50vw'
+					}, 1000);
 				})
 			};
 		</script>
@@ -33,6 +38,6 @@
 		<div id="moving" style="position: relative; width: 50px; height: 50px; background-color: crimson;"></div>
 		<button id="moveDiv">Move a DIV</button>
 		<div id="biggerToTheRight" style="position: relative; width: 50px; height: 50px; background-color: crimson;"></div>
-		<button id="changeSizePos">CHange Size and Move!</button>
+		<button id="changeSizePos">Change Size and Move!</button>
 	</body>
 </html>
