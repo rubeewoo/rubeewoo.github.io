@@ -13,11 +13,19 @@
 						height: '100px'
 					}, 1000);
 				});
+
+				$('button#moveDiv').on('click', function() {
+					$'div#moving'.animate({
+						left: '50vw'
+					}, 2000);
+				})
 			};
 		</script>
 	</head>
 	<body>
 		<div id="newSize" style="width: 50px; height: 50px; background-color: orange;"></div>
 		<button id="changeSize">Change Size</button>
+		<div id="moving" style="position: relative; width: 50px; height: 50px; background-color: crimson;"></div>
+		<button id="moveDiv">Move a DIV</button>
 	</body>
 </html>
