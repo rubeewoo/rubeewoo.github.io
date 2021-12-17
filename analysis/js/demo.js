@@ -8,8 +8,14 @@ window.onload = function () {
 		//Set up a variable for creating a different length of animation delay
 		let delay = 0;
 		if(menuOpen) {
-
-		}
+			menuItems.each(function(index) {	
+				setTimeout(function() {
+					menuItems.eq(index).animate({'opacity' 0}, 300, function() {
+						menuItems.eq(index).css({'display' : 'none'});
+					});
+				});
+			}, delay + (50 * index));
+		};
 		//When menuOpen is false, try to show the entire menu.
 		else {
 			menuItems.each(function(index) {
@@ -22,6 +28,8 @@ window.onload = function () {
 			});
 			//Add the class name 'close' to the clicked first <a> under <nav>
 			$(this).addClass('close');
+			//Now the menu is open, so set menuOpen as 'true'
+			menuOpen = true; 
 		}
 		
 	});
