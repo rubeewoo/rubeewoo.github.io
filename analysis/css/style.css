@@ -103,7 +103,7 @@ nav > a:first-of-type {
 }
 
 nav > a:hover {
-	opacity: 0.95;
+	opacity: 0.95 !important;
 	transition: all 1s ease-out;
 }
 
