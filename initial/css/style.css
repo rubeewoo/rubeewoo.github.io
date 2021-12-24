@@ -84,6 +84,12 @@ article > section {
 	background-color: #f1ebe0;
 }
 
+article > section > div {
+	height: 50px;
+	width: 50px;
+
+}
+
 
 
 
