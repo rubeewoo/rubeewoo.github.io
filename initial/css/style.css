@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Poppins&family=Source+Sans+Pro&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	min-height: 100%;
+	width: 100%;
+	background-color: white;
+	overflow-x: hidden;
+	font-family: Alegreya, Noto Serif TC, serif;
+	font-size: 3vh;
+	line-height: 4.5vh;
+}
+
+header, nav, h1, h2, h3, div#backToTop {
+	font-family: Roboto Slab, Noto Sans TC, sans-serif;
+}
+
+body > img#bg {
+	position:  fixed;
+	z-index: -999;
+	top: 0;
+	left: 0;
+	opacity: 0.2;
+}
+
+header {
+	
+}
