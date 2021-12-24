@@ -34,5 +34,50 @@ body > img#bg {
 }
 
 header {
+	margin-left: 20%;
+	width: 60%;
+	font-size: 6vh;
+	height: 10vh;
+	line-height: 10vh;
+	text-align: center;
+}
+
+header > sub {
+	font-size: 50%;
+}
+
+nav {
+	background-color: #4d4d4d;
+	margin-left: 20%;
+	width: 60%;
+	height: 5vh;
+	font-size: 2vh;
+	line-height: 5vh;
+	opacity: 0.8;
+
+}
+
+nav > a {
+	display: inline-block;
+	height: 100%;
+	padding: 0.2vw;
+	color: white;
+	border-right: 2px solid #bcbcbc;
+	text-decoration: none;
+
+}
+
+nav > a:hover {
+	background-color: #bcbcbc;
+	color: #4d4d4d;
 	
 }
+
+
+
+
+
+
+
+
+
