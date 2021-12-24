@@ -85,9 +85,10 @@ article > section {
 }
 
 article > section > div {
+	float: left;
+	margin: 0.5vh 0.5vw 0 0;
 	height: 50px;
 	width: 50px;
-
 }
 
 
