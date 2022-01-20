@@ -1,71 +1,22 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html lang="en-us">
 	<head>
-		<link rel="stylesheet" href="./demo.css">
-		<script src="../../js/jquery-3.2.1.min.js"></script>
-		<script src="./demo.js"></script>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" charset="UTF-8" >
-		<title>Expository Essay Analysis: Example</title>
+		<title>Expository Essay Analysis: Analysis</title>
+		<meta charset="utf-8">
+		<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+		<script src="./js/demo.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
 		<style>
-			span.joint {
-				color: #a6611a;
+			q {
+				background-color: #80cdc1;
 			}
 
-			span.vocab {
-				position: relative;
-				padding: 0 4px;
-				border-radius: 2px;
-				background-color: #018571;
-				color: white;
-			}
-
-			span.vocab > span {
-				display: none;
-				position: fixed;
-				top: 50%;
-				left: 10px;
-				max-width: 50vw;
-				padding: 0 4px;
-				border-radius: 2px;
-				background-color: #dfc27d;
-				color: #000a16;
-				text-indent: 0;
-				opacity: 0;
-				transform: translateY(-50%);
-				transition: all 0.3s ease-out;
-			}
-
-			span.vocab:hover > span {
-				display: block;
-				z-index: 2;
-				opacity: 0.9;
-				transition: all 0.3s ease-out;
-			}
-
-			article > section {
-				position: relative;
-				top: 50px;
-				opacity: 0;
+			p.quote {
+				text-indent: unset;
+				margin: 1vh 0;
+				padding: 0 5vwszzzz;
 			}
 		</style>
-		<script>
-			$(document).ready(()=>{
-				$(document).on('scroll', animateSection);
-			});
-
-			$(window).on("load", animateSection());
-
-			function animateSection() {
-				let allSections = $('article > section');
-				let screenHeight = $(window).height(), scrollTop = $(window).scrollTop();
-				allSections.each((index)=>{
-					let section = allSections.eq(index);
-					if(screenHeight + scrollTop - 50 > section.offset().top) {
-						section.animate({top: 0, opacity: 1}, 500);
-					}
-				});
-			};
-		</script>
 	</head>
 	<body>
 		<nav>
