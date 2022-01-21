@@ -52,5 +52,16 @@ p {
 	font-size: 15px;
 }
 
+img#background {
+	z-index: -1;
+	height: 100%;
+	top: 0;
+	position: fixed;
+	left: 0;
+	width: 100%;
+	opacity: 0.5;
+
+}
+
 
 
