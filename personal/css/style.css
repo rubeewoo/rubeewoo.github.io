@@ -1,12 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&Dongle');
 
-h1 {
-	font-family: Mochiy Pop P One, sans-serif;
-	font-size: 3vh;
-	line-height: 10vh;
-	margin: 1vh 0;
-	padding: 1vh 5vw;
-}
+
 
 nav {
 	position: fixed;
@@ -19,6 +13,16 @@ nav {
 	font-family: Poppins, sans-serif;
 	font-size: 2vh;
 	line-height: 3vh;
+	padding: 1vh 10vw 20px;
+	background-color: #F79BB4;
+}
+
+h1 {
+	font-family: Mochiy Pop P One, sans-serif;
+	font-size: 3vh;
+	line-height: 10vh;
+	margin: 1vh 0;
+	padding: 1vh 5vw;
 }
 
 section {
