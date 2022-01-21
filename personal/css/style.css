@@ -34,12 +34,13 @@ h1 {
 }
 
 section {
-	margin: 1.2vh 0;
+	margin: 1.2vh 5vw;
 	padding: 1vh 10vw 20px;
 	background-color:#F79BB4;
 	color: white;
 	font-family: Dongle, sans-serif;
 	text-align: center;
+	opacity: 0.8 ;
 }
 
 section > p {
