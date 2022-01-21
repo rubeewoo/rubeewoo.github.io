@@ -22,12 +22,13 @@ nav > a {
 	padding: 2px 4px;
 	text-decoration: none;
 	opacity: 0.8;
+	margin: 2px;
 	/*transition: all 0.3s ease-out;*/
 }
 
 h1 {
 	font-family: Mochiy Pop P One, sans-serif;
-	font-size: 3vh;
+	font-size: 45px;
 	line-height: 10vh;
 	margin: 1vh 0;
 	padding: 1vh 5vw;
