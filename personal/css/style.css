@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Poppins&family=Source+Sans+Pro&display=swap');
+
+h1 {
+	font-family: Mochiy Pop P One, sans-serif;
+	font-size: 3vh;
+	line-height: 4vh;
+	margin: 1vh 0;
+	padding: 1vh 5vw;
+}
+
+h1 {
+	font-size: 2.4vh;
+	line-height: 3.6vh;
+	margin: 1vh 0;
+}
