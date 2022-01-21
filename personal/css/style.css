@@ -26,8 +26,8 @@ section {
 	padding: 1vh 10vw 20px;
 	background-color:#F79BB4;
 	color: white;
-	width: 300px;
 	font-family: Dongle, sans-serif;
+	text-align: center;
 }
 
 section > p {
