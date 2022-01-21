@@ -14,9 +14,19 @@ nav {
 	/*top: 10px;
 	left: 10px;*/
 	display: flex;
-	flex-direction: column;
+	/*flex-direction: column;*/
 	text-align: center;
 	font-family: Poppins, sans-serif;
 	font-size: 2vh;
 	line-height: 3vh;
 }
+
+section {
+	margin: 1.2vh 0;
+}
+
+section > p {
+	text-indent: 5%;
+}
+
+
