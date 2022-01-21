@@ -8,8 +8,15 @@ h1 {
 	padding: 1vh 5vw;
 }
 
-h1 {
-	font-size: 2.4vh;
-	line-height: 3.6vh;
-	margin: 1vh 0;
+nav {
+	position: fixed;
+	z-index: 3;
+	top: 10px;
+	left: 10px;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	font-family: Poppins, sans-serif;
+	font-size: 2vh;
+	line-height: 3vh;
 }
