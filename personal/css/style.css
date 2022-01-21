@@ -23,11 +23,15 @@ nav {
 
 section {
 	margin: 1.2vh 0;
-	padding: 1vh 10vw;
+	padding: 1vh 10vw 20px;
+	background-color:#F79BB4;
+	color: white;
+	width: 300px;
 }
 
 section > p {
 	text-indent: 5%;
 }
+
 
 
