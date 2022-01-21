@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One');
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&Dongle');
 
 h1 {
 	font-family: Mochiy Pop P One, sans-serif;
@@ -27,6 +27,7 @@ section {
 	background-color:#F79BB4;
 	color: white;
 	width: 300px;
+	font-family: Dongle, sans-serif;
 }
 
 section > p {
