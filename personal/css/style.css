@@ -3,7 +3,6 @@
 
 
 nav {
-	position: fixed;
 	z-index: 3;
 	/*top: 10px;
 	left: 10px;
@@ -14,7 +13,6 @@ nav {
 	font-size: 2vh;
 	line-height: 3vh;
 	padding: 1vh 10vw;
-	left: 20px;
 }
 
 nav > a {
