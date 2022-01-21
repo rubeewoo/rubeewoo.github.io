@@ -11,8 +11,8 @@ h1 {
 nav {
 	position: fixed;
 	z-index: 3;
-	top: 10px;
-	left: 10px;
+	/*top: 10px;
+	left: 10px;*/
 	display: flex;
 	flex-direction: column;
 	text-align: center;
