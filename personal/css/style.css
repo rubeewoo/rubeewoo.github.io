@@ -73,10 +73,12 @@ img#background2 {
 	opacity: 0.5;
 
 }
-section#
+section#chinesever {
+	font-family: none;
+}
 
 h1#chinesever {
-	font-family: sans-serif;
+	font-family: none;
 }
 
 
